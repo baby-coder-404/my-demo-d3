@@ -1,0 +1,579 @@
+{
+  "name": "C",
+  "children": [
+    {
+      "name": "BaseDataApi",
+      "size": 0,
+      "imports": [
+        "C.AdConfig-serivce",
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.deal-service",
+        "C.dubbo",
+        "C.evaluate-service",
+        "C.service",
+        "C.车型库基础服务"
+      ]
+    },
+    {
+      "name": "AdConfig-api",
+      "size": 0,
+      "imports": [
+        "C.AdConfig-serivce",
+        "C.app-console-service",
+        "C.apply-service",
+        "C.arch_abs_api",
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.cms-service",
+        "C.common-service",
+        "C.console-service",
+        "C.dubbo",
+        "C.eap_console_api",
+        "C.groupbuy-service",
+        "C.kit-service",
+        "C.manu_out",
+        "C.op-dubbo-api",
+        "C.qiandao-service",
+        "C.spider-storage-api",
+        "C.vip_crm_api",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "adver-outapi",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "advertise-service",
+      "size": 0,
+      "imports": [
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "app-console-service",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "apply-api",
+      "size": 0,
+      "imports": [
+        "C.apply-service",
+        "C.common-service"
+      ]
+    },
+    {
+      "name": "apply-service",
+      "size": 0,
+      "imports": [
+        "C.arch_tuanche-code-api",
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.common-service",
+        "C.console-service",
+        "C.dubbo",
+        "C.groupbuy-service",
+        "C.kit-service",
+        "C.qiandao-service",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "app-schedule",
+      "size": 0,
+      "imports": [
+        "C.AdConfig-serivce",
+        "C.BaseData-service",
+        "C.common-service"
+      ]
+    },
+    {
+      "name": "arch_abs_api",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "arch_dataservice",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "arch_tuanche-code-api",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "arch_tuanche-ucenter-service",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "bargain-service",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "BaseData-service",
+      "size": 0,
+      "imports": [
+        "C.apply-service",
+        "C.arch_tuanche-ucenter-service",
+        "C.calculate-service",
+        "C.console-service",
+        "C.dubbo",
+        "C.operationActivity-service",
+        "C.service",
+        "C.spider-storage-api",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "bentley",
+      "size": 0,
+      "imports": [
+        "C.BaseData-service",
+        "C.common-service",
+        "C.dubbo",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "calculate-service",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "callcenter_api",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "channel-analysis",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "city-web",
+      "size": 0,
+      "imports": [
+        "C.AdConfig-serivce",
+        "C.BaseData-service",
+        "C.common-service",
+        "C.dubbo",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "cms-service",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "cms-web",
+      "size": 0,
+      "imports": [
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.cms-service",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "common-schedule",
+      "size": 0,
+      "imports": [
+        "C.app-console-service",
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.deal-service",
+        "C.operationActivity-service",
+        "C.vip_crm_api",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "common-service",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "console",
+      "size": 0,
+      "imports": [
+        "C.adver-outapi",
+        "C.app-console-service",
+        "C.arch_tuanche-ucenter-service",
+        "C.calculate-service",
+        "C.cms-service",
+        "C.groupbuy-service",
+        "C.manu_out",
+        "C.operationActivity-service",
+        "C.qiandao-service",
+        "C.vip_crm_api",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "console-api",
+      "size": 0,
+      "imports": [
+        "C.adver-outapi",
+        "C.app-console-service",
+        "C.arch_tuanche-ucenter-service",
+        "C.console-service",
+        "C.groupbuy-service",
+        "C.operationActivity-service",
+        "C.vip_crm_api",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "console-ms",
+      "size": 0,
+      "imports": [
+        "C.BaseData-service",
+        "C.common-service",
+        "C.console-service",
+        "C.eap_console_api",
+        "C.groupbuy-service",
+        "C.manu_out",
+        "C.materials-outapi",
+        "C.operationActivity-service",
+        "C.systemAuth",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "console-service",
+      "size": 0,
+      "imports": [
+        "C.arch_tuanche-ucenter-service",
+        "C.calculate-service",
+        "C.groupbuy-service",
+        "C.manu_out",
+        "C.materials-outapi",
+        "C.operationActivity-service",
+        "C.qiandao-service",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "deal-api",
+      "size": 0,
+      "imports": [
+        "C.BaseData-service",
+        "C.common-service",
+        "C.deal-service",
+        "C.dubbo",
+        "C.车型库基础服务"
+      ]
+    },
+    {
+      "name": "deal-service",
+      "size": 0,
+      "imports": [
+        "C.BaseData-service",
+        "C.common-service",
+        "C.dubbo",
+        "C.qiandao-service",
+        "C.systemAuth",
+        "C.车型库基础服务"
+      ]
+    },
+    {
+      "name": "distribute-ms",
+      "size": 0,
+      "imports": [
+        "C.bargain-service",
+        "C.BaseData-service",
+        "C.common-service",
+        "C.groupbuy-service",
+        "C.share-service",
+        "C.车型库基础服务"
+      ]
+    },
+    {
+      "name": "dubbo",
+      "size": 0,
+      "imports": [
+        "C.arch_tuanche-code-api",
+        "C.callcenter_api",
+        "C.common-service",
+        "C.eap_console_api",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "eap_console_api",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "evaluate-api",
+      "size": 0,
+      "imports": [
+        "C.AdConfig-serivce",
+        "C.arch_tuanche-ucenter-service",
+        "C.evaluate-service",
+        "C.车型库基础服务"
+      ]
+    },
+    {
+      "name": "evaluate-ms",
+      "size": 0,
+      "imports": [
+        "C.evaluate-service",
+        "C.车型库基础服务"
+      ]
+    },
+    {
+      "name": "evaluate-service",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "groupbuy-api",
+      "size": 0,
+      "imports": [
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.common-service",
+        "C.groupbuy-service",
+        "C.车型库基础服务"
+      ]
+    },
+    {
+      "name": "groupbuy-schedule",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "groupbuy-service",
+      "size": 0,
+      "imports": [
+        "C.AdConfig-serivce",
+        "C.app-console-service",
+        "C.console-service",
+        "C.qiandao-service",
+        "C.spider-storage-api",
+        "C.vip_crm_api",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "kit-api",
+      "size": 0,
+      "imports": [
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.common-service",
+        "C.dubbo",
+        "C.kit-service"
+      ]
+    },
+    {
+      "name": "kit-service",
+      "size": 0,
+      "imports": [
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.vip_crm_api"
+      ]
+    },
+    {
+      "name": "lincoln-web",
+      "size": 0,
+      "imports": [
+        "C.BaseData-service",
+        "C.common-service",
+        "C.dubbo",
+        "C.eap_console_api"
+      ]
+    },
+    {
+      "name": "manu_out",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "materials-outapi",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "op-dubbo-api",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "operationActivity-service",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "operationActivty-api",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "operationActivty-ms",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "operationActivty-service",
+      "size": 0,
+      "imports": [
+        "C.app-console-service",
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.console-service",
+        "C.eap_console_api",
+        "C.manu_out",
+        "C.manu_out",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "qiandao",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "qiandao-api",
+      "size": 0,
+      "imports": [
+        "C.adver-outapi",
+        "C.apply-service",
+        "C.arch_tuanche-code-api",
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.groupbuy-service",
+        "C.operationActivity-service",
+        "C.qiandao-service",
+        "C.service",
+        "C.vip_crm_api",
+        "C.车型库基础服务"
+      ]
+    },
+    {
+      "name": "qiandao-service",
+      "size": 0,
+      "imports": [
+        "C.AdConfig-serivce",
+        "C.arch_dataservice",
+        "C.arch_tuanche-code-api",
+        "C.arch_tuanche-ucenter-service",
+        "C.BaseData-service",
+        "C.dubbo",
+        "C.eap_console_api",
+        "C.service",
+        "C.vip_crm_api",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "service",
+      "size": 0,
+      "imports": [
+        "C.common-service",
+        "C.dubbo",
+        "C.kit-service",
+        "C.车型库基础服务",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "share-api",
+      "size": 0,
+      "imports": [
+        "C.BaseData-service",
+        "C.common-service",
+        "C.share-service"
+      ]
+    },
+    {
+      "name": "share-service",
+      "size": 0,
+      "imports": [
+        "C.BaseData-service",
+        "C.城市基础服务"
+      ]
+    },
+    {
+      "name": "spider-storage-api",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "systemAuth",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "umapi",
+      "size": 0,
+      "imports": [
+        "C.common-service",
+        "C.dubbo",
+        "C.车型库基础服务"
+      ]
+    },
+    {
+      "name": "vip_crm_api",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "wxActivity-schedule",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "zixun",
+      "size": 0,
+      "imports": [
+        "C.city-web",
+        "C.dubbo"
+      ]
+    },
+    {
+      "name": "车型库基础服务",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "城市基础服务",
+      "size": 0,
+      "imports": []
+    },
+    {
+      "name": "AdConfig-serivce",
+      "size": 0,
+      "imports": [
+        "C.apply-service",
+        "C.BaseData-service",
+        "C.common-service",
+        "C.dubbo",
+        "C.groupbuy-service",
+        "C.qiandao-service",
+        "C.车型库基础服务"
+      ]
+    }
+  ]
+}
